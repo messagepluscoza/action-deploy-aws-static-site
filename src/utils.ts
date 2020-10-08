@@ -14,7 +14,7 @@ export function getSubdomain(fullDomain: string): string | null {
 }
 
 export function getDomain(fullDomain: string): string {
-  return fullDomain.split(".").splice(-2, 2).join(".");
+  return fullDomain.split(".").splice(-3, 3).join(".");
 }
 
 export function getDNSZone(
